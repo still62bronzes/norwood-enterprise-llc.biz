@@ -1,31 +1,31 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <!--
-    One-file insurance broker template for Cloudflare Pages
-    Replace tokens like Norwood Enterprise LLC, Laschawn@norwood-enterprise-llc.biz, etc. before deploy.
+    One-file Fitness Trainer template for Cloudflare Pages
   -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Norwood Enterprise LLC — Independent Insurance Broker</title>
-  <meta name="description" content="Norwood Enterprise LLC helps individuals and businesses compare top-rated insurance options. Speak with Laschawn Norwood at (863) 264-8915." />
+  <title>Norwood Enterprise LLC — Fitness Trainer</title>
+  <meta name="description" content="Norwood Enterprise LLC helps you get stronger, leaner, and healthier with personalized training. Contact Laschawn Norwood at (863) 264-8915 or placeholder@email.com." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <meta property="og:title" content="Norwood Enterprise LLC — Independent Insurance Broker" />
-  <meta property="og:description" content="Compare coverage, save money, and get personalized advice from Laschawn Norwood." />
+
+  <meta property="og:title" content="Norwood Enterprise LLC — Fitness Trainer" />
+  <meta property="og:description" content="Personal training, nutrition coaching, and custom plans to help you reach your goals." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1600&q=80" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80" />
   <meta name="theme-color" content="#0b4aa6" />
 
-  <!-- JSON-LD: InsuranceAgency with placeholders -->
+  <!-- JSON-LD: LocalBusiness -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "InsuranceAgency",
+    "@type": "LocalBusiness",
     "name": "Norwood Enterprise LLC",
-    "email": "Laschawn@norwood-enterprise-llc.biz",
+    "email": "placeholder@email.com",
     "telephone": "(863) 264-8915",
     "address": {
       "@type": "PostalAddress",
@@ -35,6 +35,7 @@
       "postalCode": "45385",
       "addressCountry": "US"
     },
+    "founder": "Laschawn Norwood",
     "areaServed": "United States",
     "url": "https://example.com"
   }
@@ -115,7 +116,7 @@
     .disclosure summary{color:#374151;font-weight:600;cursor:pointer;user-select:none}
     .disclosure .body{margin-top:8px;padding:10px 0;color:#374151;line-height:1.5}
 
-    /* New styles for consent card and consent checkboxes */
+    /* Consent */
     .legal-sections{margin-top:16px}
     .legal-sections h4{font-size:16px;margin:0 0 10px;font-weight:700}
     .consent-card{background:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin-bottom:16px}
@@ -156,13 +157,14 @@
     .legal{opacity:.7}
   </style>
 </head>
+
 <body>
   <!-- Top Bar -->
   <div class="topbar">
     <div class="container">
       <div class="row">
-        <span>📞 Call <a href="tel:(863) 264-8915">(863) 264-8915</a></span>
-        <span>✉️ <a href="mailto:Laschawn@norwood-enterprise-llc.biz">Laschawn@norwood-enterprise-llc.biz</a></span>
+        <span>📞 Call <a href="tel:+18632648915">(863) 264-8915</a></span>
+        <span>✉️ <a href="mailto:placeholder@email.com">placeholder@email.com</a></span>
         <span>🏢 Xenia, OH</span>
       </div>
     </div>
@@ -178,13 +180,13 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#coverage">Coverage</a></li>
+            <li><a href="#services">Programs</a></li>
+            <li><a href="#results">Results</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
         </nav>
-        <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Free Quote</button>
+        <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Free Consult</button>
       </div>
     </div>
   </header>
@@ -194,88 +196,102 @@
     <div class="container">
       <div class="inner">
         <div>
-          <div class="badge">🛡️ Licensed Insurance Broker</div>
-          <h1>Insurance Coverage Made Simple</h1>
-          <p class="sub">Compare quotes from top carriers and find the perfect policy for your needs. Laschawn Norwood is here to guide you every step.</p>
+          <div class="badge">🏋️‍♀️ Fitness Training & Coaching</div>
+          <h1>Stronger Body. Healthier Life.</h1>
+          <p class="sub">Personalized training and coaching built around your goals, schedule, and fitness level—so you can feel confident and see real progress.</p>
+
           <div class="hero-cards">
             <div class="card">
-              <h3>Health & Medicare</h3>
-              <p>Individual, family, and Medicare plans to keep you covered.</p>
+              <h3>1:1 Personal Training</h3>
+              <p>Hands-on sessions with a plan tailored to strength, weight loss, or performance.</p>
             </div>
             <div class="card">
-              <h3>Life & Disability</h3>
-              <p>Protect your family's financial future with the right coverage.</p>
+              <h3>Nutrition Coaching</h3>
+              <p>Simple, sustainable habits—meal structure, macros, and accountability.</p>
             </div>
             <div class="card">
-              <h3>Business Insurance</h3>
-              <p>Liability, property, and specialized coverage for businesses.</p>
+              <h3>Online Programs</h3>
+              <p>Workout plans, check-ins, and guidance anywhere you train.</p>
             </div>
           </div>
+
           <div class="trust">
-            <div class="mini">✅ 10+ Years Experience</div>
-            <div class="mini">🏆 Top Carriers</div>
-            <div class="mini">💰 Save Money</div>
-            <div class="mini">🤝 Personal Service</div>
+            <div class="mini">✅ Goal-Based Plans</div>
+            <div class="mini">📈 Progress Tracking</div>
+            <div class="mini">🧠 Habit Coaching</div>
+            <div class="mini">🤝 Accountability</div>
           </div>
         </div>
+
         <div>
-          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80" alt="Professional insurance consultation" style="border-radius:16px">
+          <img
+            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80"
+            alt="Fitness trainer coaching a workout"
+            style="border-radius:16px"
+          >
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
+  <!-- Programs -->
   <section id="services">
     <div class="container">
-      <h2 class="section-title">Insurance Services We Provide</h2>
-      <p class="section-sub">Comprehensive coverage options from America's most trusted insurance companies</p>
+      <h2 class="section-title">Programs & Coaching</h2>
+      <p class="section-sub">Choose the format that fits your lifestyle—then we tailor the plan to fit you.</p>
+
       <div class="grid-3">
         <div class="card">
-          <h3>🏥 Health Insurance</h3>
-          <p>Individual and family health plans, including ACA marketplace options and short-term coverage.</p>
+          <h3>🏋️ Strength Training</h3>
+          <p>Build muscle, improve posture, and get stronger with progressive programming.</p>
         </div>
         <div class="card">
-          <h3>👴 Medicare Plans</h3>
-          <p>Medicare Advantage, Supplement, and Part D prescription plans tailored to your needs.</p>
+          <h3>🔥 Weight Loss & Toning</h3>
+          <p>Fat-loss focused workouts plus nutrition guidance that’s realistic and sustainable.</p>
         </div>
         <div class="card">
-          <h3>🦷 Dental & Vision</h3>
-          <p>Standalone dental and vision coverage for individuals and families.</p>
+          <h3>🧘 Mobility & Core</h3>
+          <p>Move better, reduce aches, and improve stability with targeted mobility work.</p>
         </div>
         <div class="card">
-          <h3>💼 Life Insurance</h3>
-          <p>Term and whole life policies to protect your family's financial security.</p>
+          <h3>⚡ Performance Training</h3>
+          <p>Speed, power, and conditioning for sport and everyday performance.</p>
         </div>
         <div class="card">
-          <h3>♿ Disability Income</h3>
-          <p>Short and long-term disability insurance to replace lost income.</p>
+          <h3>👥 Small Group Training</h3>
+          <p>Train with friends for motivation—structured sessions with individual coaching cues.</p>
         </div>
         <div class="card">
-          <h3>🏢 Business Coverage</h3>
-          <p>General liability, property, workers' comp, and industry-specific policies.</p>
+          <h3>📲 Online Coaching</h3>
+          <p>Customized workouts, weekly check-ins, and support—anywhere, anytime.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Coverage Comparison -->
-  <section id="coverage" style="background:#f9fafb">
+  <!-- Results / Why Choose -->
+  <section id="results" style="background:#f9fafb">
     <div class="container">
-      <h2 class="section-title">Why Choose Norwood Enterprise LLC?</h2>
+      <h2 class="section-title">Why Train With Norwood Enterprise LLC?</h2>
+
       <div class="grid-2" style="align-items:center">
         <div>
           <ul class="list">
-            <li><span class="check">✓</span> Compare quotes from multiple top-rated carriers</li>
-            <li><span class="check">✓</span> Expert guidance through the entire process</li>
-            <li><span class="check">✓</span> No fees — carriers pay us, not you</li>
-            <li><span class="check">✓</span> Local agent who understands OH regulations</li>
-            <li><span class="check">✓</span> Ongoing support after you enroll</li>
-            <li><span class="check">✓</span> Annual policy reviews to ensure best coverage</li>
+            <li><span class="check">✓</span> Training tailored to your goals, injuries, and experience level</li>
+            <li><span class="check">✓</span> Clear plan: what to do, when to do it, and why it works</li>
+            <li><span class="check">✓</span> Nutrition guidance focused on habits (not extremes)</li>
+            <li><span class="check">✓</span> Accountability that keeps you consistent</li>
+            <li><span class="check">✓</span> Progress tracking (strength, measurements, photos, performance)</li>
+            <li><span class="check">✓</span> Support between sessions so you’re never stuck</li>
           </ul>
         </div>
+
         <div>
-          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" alt="Healthcare professional reviewing insurance options" style="border-radius:16px">
+          <img
+            src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=800&q=80"
+            alt="Person training with weights in a gym"
+            style="border-radius:16px"
+          >
         </div>
       </div>
     </div>
@@ -285,27 +301,30 @@
   <section>
     <div class="container">
       <h2 class="section-title">How It Works</h2>
-      <p class="section-sub">Getting the right coverage is easier than you think</p>
+      <p class="section-sub">A simple process to start training—and start seeing progress.</p>
+
       <div class="process grid-3">
         <div class="step">
           <div class="num">1</div>
           <div>
             <strong>Free Consultation</strong>
-            <p>Tell us about your needs and budget. We'll review your situation at no cost.</p>
+            <p>Tell us your goals, schedule, and current fitness level. We’ll map the best next steps.</p>
           </div>
         </div>
+
         <div class="step">
           <div class="num">2</div>
           <div>
-            <strong>Compare Options</strong>
-            <p>We'll present quotes from multiple carriers and explain the differences.</p>
+            <strong>Assessment & Plan</strong>
+            <p>We evaluate movement, strength, and habits—then build a plan you can follow.</p>
           </div>
         </div>
+
         <div class="step">
           <div class="num">3</div>
           <div>
-            <strong>Enroll with Confidence</strong>
-            <p>We handle the paperwork and make sure you're properly covered.</p>
+            <strong>Train & Track</strong>
+            <p>Work the plan, track progress, and adjust as you get stronger and more confident.</p>
           </div>
         </div>
       </div>
@@ -315,88 +334,102 @@
   <!-- Testimonials -->
   <section style="background:#f9fafb">
     <div class="container">
-      <h2 class="section-title">What Our Clients Say</h2>
+      <h2 class="section-title">Client Wins</h2>
+
       <div class="grid-3">
         <div class="testimonial">
-          <p class="quote">"Laschawn saved us over $400/month on health insurance with better coverage than we had before!"</p>
-          <p><strong>Sarah M.</strong> • Xenia</p>
+          <p class="quote">"I finally stayed consistent. The plan was clear, and the check-ins kept me accountable."</p>
+          <p><strong>Jordan P.</strong> • Strength & Confidence</p>
         </div>
+
         <div class="testimonial">
-          <p class="quote">"Finally found someone who could explain Medicare in plain English. Highly recommend!"</p>
-          <p><strong>Robert K.</strong> • OH</p>
+          <p class="quote">"Down 18 lbs and my energy is way up. The nutrition coaching was practical, not restrictive."</p>
+          <p><strong>Emily R.</strong> • Weight Loss</p>
         </div>
+
         <div class="testimonial">
-          <p class="quote">"Professional, responsive, and truly cares about finding the right fit for your situation."</p>
-          <p><strong>Maria T.</strong> • Business Owner</p>
+          <p class="quote">"My back pain improved and I’m lifting heavier than ever. Best decision I made this year."</p>
+          <p><strong>Chris L.</strong> • Mobility & Strength</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about">
     <div class="container">
       <h2 class="section-title">About Laschawn Norwood</h2>
+
       <div class="about">
         <div class="bio">
-          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80" alt="Laschawn Norwood">
+          <img
+            src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=200&q=80"
+            alt="Laschawn Norwood"
+          >
           <div>
-            <p>With over a decade of experience in the insurance industry, Laschawn Norwood founded Norwood Enterprise LLC to provide personalized, honest insurance guidance to individuals and businesses in OH and beyond.</p>
-            <p>"My goal is simple: help you understand your options and find coverage that truly protects what matters most to you."</p>
+            <p>Laschawn Norwood is the principal of <strong>Norwood Enterprise LLC</strong>, focused on helping clients build strength, improve health, and create sustainable habits—without the guesswork.</p>
+            <p>"My goal is simple: meet you where you are, coach you safely, and help you feel proud of your progress—one session at a time."</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA Section -->
+  <!-- CTA -->
   <section>
     <div class="container">
       <div class="cta">
-        <h2 style="margin:0">Ready to Find Your Perfect Coverage?</h2>
-        <p style="margin:4px 0">Get a free, no-obligation quote in minutes. Let's protect what matters most.</p>
+        <h2 style="margin:0">Ready to Start Training?</h2>
+        <p style="margin:4px 0">Book a free consultation and get a plan built around your goals.</p>
         <div class="actions">
-          <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Free Quote</button>
-          <button class="ghost" onclick="window.location.href='tel:(863) 264-8915'">📞 Call (863) 264-8915</button>
+          <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Free Consult</button>
+          <button class="ghost" onclick="window.location.href='tel:+18632648915'">📞 Call (863) 264-8915</button>
+          <button class="ghost" onclick="window.location.href='mailto:placeholder@email.com'">✉️ Email Us</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FAQ Section -->
+  <!-- FAQ -->
   <section id="faq" style="background:#f9fafb">
     <div class="container">
       <h2 class="section-title">Frequently Asked Questions</h2>
+
       <div class="faq" style="max-width:800px">
         <details>
-          <summary>Do I have to pay for your services?</summary>
-          <p>No! Our services are completely free to you. We're compensated by insurance carriers when you enroll in a policy, so you never pay us directly.</p>
+          <summary>Do you work with beginners?</summary>
+          <p>Yes. We start with an assessment and build a plan that matches your current level. The goal is safe progress you can sustain.</p>
         </details>
+
         <details>
-          <summary>How do you find the best rates?</summary>
-          <p>We work with multiple insurance carriers and use our industry connections to compare rates and coverage. Our experience helps us know which carriers offer the best value for your specific situation.</p>
+          <summary>Do I need a gym membership?</summary>
+          <p>Not necessarily. We can design training for home, gym, or a hybrid approach depending on your equipment and preferences.</p>
         </details>
+
         <details>
-          <summary>Can you help if I already have insurance?</summary>
-          <p>Absolutely! We can review your current coverage and often find better rates or more comprehensive coverage. Many clients save money by switching during open enrollment periods.</p>
+          <summary>How often should I train?</summary>
+          <p>Most clients do 2–4 sessions per week depending on goals, recovery, and schedule. We’ll recommend a frequency that fits your life.</p>
         </details>
+
         <details>
-          <summary>What areas do you serve?</summary>
-          <p>While we're based in Xenia, OH, we're licensed to help clients across multiple states. Contact us to confirm coverage in your area.</p>
+          <summary>Do you provide nutrition plans?</summary>
+          <p>We provide nutrition coaching and guidance (habits, macros, meal structure). For medical nutrition therapy, we’ll refer you to a registered dietitian.</p>
         </details>
+
         <details>
-          <summary>How long does the process take?</summary>
-          <p>We can often provide quotes within minutes. The full enrollment process typically takes 15-30 minutes, and coverage can begin as soon as the next day for some policies.</p>
+          <summary>How fast will I see results?</summary>
+          <p>Many people feel better within 1–2 weeks. Visible changes commonly appear in 4–8 weeks with consistent training and nutrition.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
+  <!-- Contact -->
+  <section id="contact" class="contact">
     <div class="container">
-      <h2 class="section-title">Get Your Free Insurance Quote</h2>
-      <p class="section-sub">Fill out this quick form or call us at (863) 264-8915</p>
+      <h2 class="section-title">Book a Free Fitness Consultation</h2>
+      <p class="section-sub">Fill out this quick form or call us at (863) 264-8915 or email placeholder@email.com</p>
+
       <div class="grid-2" style="gap:32px">
         <form id="contactForm" onsubmit="handleSubmit(event)">
           <div class="row">
@@ -409,6 +442,7 @@
               <input type="text" id="lastName" name="last_name" required>
             </div>
           </div>
+
           <div class="row">
             <div>
               <label for="email">Email *</label>
@@ -419,27 +453,29 @@
               <input type="tel" id="phone" name="phone" required>
             </div>
           </div>
+
           <div>
-            <label for="insuranceType">Type of Insurance Needed *</label>
-            <select id="insuranceType" name="insurance_type" required>
-              <option value="">Select coverage type...</option>
-              <option value="health">Health Insurance</option>
-              <option value="medicare">Medicare</option>
-              <option value="life">Life Insurance</option>
-              <option value="disability">Disability</option>
-              <option value="dental-vision">Dental/Vision</option>
-              <option value="business">Business Insurance</option>
-              <option value="multiple">Multiple Types</option>
+            <label for="goal">Primary Goal *</label>
+            <select id="goal" name="primary_goal" required>
+              <option value="">Select a goal...</option>
+              <option value="weight-loss">Weight Loss</option>
+              <option value="strength">Strength / Muscle</option>
+              <option value="conditioning">Conditioning / Endurance</option>
+              <option value="mobility">Mobility / Pain Reduction</option>
+              <option value="sport">Sport Performance</option>
+              <option value="general">General Health</option>
             </select>
           </div>
+
           <div>
-            <label for="message">Tell us more about your needs</label>
-            <textarea id="message" name="message" rows="4" placeholder="Current coverage, specific concerns, timeline, etc."></textarea>
+            <label for="message">Tell us about you</label>
+            <textarea id="message" name="message" rows="4" placeholder="Experience level, injuries, schedule, preferred training style, etc."></textarea>
           </div>
 
           <!-- Express Consent Authorization -->
           <div class="legal-sections" style="margin-top:16px">
             <h4>Express Consent Authorization Note</h4>
+
             <div id="express-consent-note" class="consent-card">
               <p>
                 By submitting this form, you acknowledge that Norwood Enterprise LLC may contact you
@@ -447,18 +483,18 @@
               </p>
               <p>
                 <strong>Transactional &amp; informational messages:</strong> With your consent, we may send
-                SMS and phone messages related to quotes, applications, enrollment, and policy service.
+                SMS and phone messages related to consultations, scheduling, training plans, and coaching.
               </p>
               <p>
                 <strong>Marketing messages:</strong> With separate consent below, we may send promotional
-                SMS and email about products, services, and offers from Norwood Enterprise LLC.
+                SMS and email about services, programs, and offers from Norwood Enterprise LLC.
               </p>
               <p>
                 <strong>Message frequency varies.</strong> Message and data rates may apply.
                 Text <strong>STOP</strong> to stop receiving text messages.
                 Text <strong>HELP</strong> for help or contact us at
-                <a href="tel:(863) 264-8915">(863) 264-8915</a> or
-                <a href="mailto:Laschawn@norwood-enterprise-llc.biz">Laschawn@norwood-enterprise-llc.biz</a>.
+                <a href="tel:+18632648915">(863) 264-8915</a> or
+                <a href="mailto:placeholder@email.com">placeholder@email.com</a>.
               </p>
             </div>
 
@@ -474,7 +510,7 @@
               <label for="consent-transactional">
                 <strong>
                   I consent to receive informational and transactional calls and text messages
-                  about my quotes, applications, and policies from Norwood Enterprise LLC.
+                  about consultations, scheduling, and coaching from Norwood Enterprise LLC.
                 </strong>
               </label>
             </div>
@@ -520,31 +556,38 @@
               <div class="body" id="privacy-policy-copy">
                 <p><strong>Last Updated:</strong> <span class="today-date"></span></p>
                 <p>Norwood Enterprise LLC ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose your personal information when you use our services or website (the "Service").</p>
+
                 <p><strong>1. Information We Collect</strong><br>
                 We may collect the following types of information:</p>
                 <ul>
-                  <li><strong>Personal Information:</strong> Name, email address, phone number, mailing address, date of birth, and Social Security number (when required for insurance applications).</li>
-                  <li><strong>Insurance Information:</strong> Current coverage details, health information (for health/life insurance), and beneficiary information.</li>
+                  <li><strong>Personal Information:</strong> Name, email address, phone number, and general location.</li>
+                  <li><strong>Fitness Information:</strong> Goals, training history, and information you voluntarily share about injuries or limitations.</li>
                   <li><strong>Usage Data:</strong> Information about how you interact with our Service.</li>
                 </ul>
+
                 <p><strong>2. How We Use Your Information</strong><br>
                 We use your information to:</p>
                 <ul>
-                  <li>Provide insurance quotes and process applications.</li>
-                  <li>Communicate with you about insurance options and policy updates.</li>
-                  <li>To notify you about changes to our Service.</li>
-                  <li>To provide customer support.</li>
-                  <li>To gather analysis or valuable information so that we can improve our Service.</li>
-                  <li>To monitor the usage of our Service.</li>
+                  <li>Schedule consultations and provide coaching services.</li>
+                  <li>Communicate with you about training plans, sessions, and updates.</li>
+                  <li>Provide customer support.</li>
+                  <li>Monitor and improve the Service.</li>
                 </ul>
+
                 <p><strong>3. Information Sharing and Disclosure</strong><br>
                 We do not sell, trade, or otherwise transfer your personal information, including phone number, to any third parties.</p>
+
                 <p><strong>4. Data Security</strong><br>
                 We implement reasonable security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information.</p>
+
                 <p><strong>5. Changes to this Privacy Policy</strong><br>
                 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
                 <p><strong>6. Contact Us</strong><br>
-                If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:Laschawn@norwood-enterprise-llc.biz">Laschawn@norwood-enterprise-llc.biz</a>.</p>
+                If you have any questions or concerns about this Privacy Policy, please contact us at
+                <a href="mailto:placeholder@email.com">placeholder@email.com</a> or
+                <a href="tel:+18632648915">(863) 264-8915</a>.
+                </p>
               </div>
             </details>
 
@@ -554,24 +597,27 @@
               <div class="body" id="terms-conditions-copy">
                 <p><strong>Last Updated:</strong> <span class="today-date"></span></p>
                 <p>Welcome to Norwood Enterprise LLC (the "Service," "we," "us," or "our"). By accessing or using the Service, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with these terms, please do not use the Service.</p>
+
                 <p><strong>1. Use of the Service</strong><br>
-                <em>1.1 Eligibility:</em> You must be at least 18 years old to use the Service. By using the Service, you represent and warrant that you meet the eligibility requirements.<br>
-                <em>1.2 Account:</em> You may be required to create an account to access certain features of the Service. You are responsible for maintaining the confidentiality of your account and password and for restricting access to your account. You agree to accept responsibility for all activities that occur under your account.</p>
-                <p><strong>2. User Content</strong><br>
-                <em>2.1 Submission:</em> You may have the opportunity to submit content, including but not limited to text, images, and other materials ("User Content"). By submitting User Content, you grant us a non-exclusive, worldwide, royalty-free, irrevocable, sub-licensable license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display such content.<br>
-                <em>2.2 Responsibility:</em> You are solely responsible for the accuracy, legality, and appropriateness of User Content. We reserve the right to remove any User Content that violates these Terms and Conditions or is otherwise objectionable.</p>
+                <em>1.1 Eligibility:</em> You must be at least 18 years old to use the Service. By using the Service, you represent and warrant that you meet the eligibility requirements.</p>
+
+                <p><strong>2. Fitness Disclaimer</strong><br>
+                The Service provides fitness education and general coaching. It is not medical advice. Consult your physician before beginning any exercise program.</p>
+
                 <p><strong>3. Intellectual Property</strong><br>
-                <em>3.1 Ownership:</em> The Service and its original content, features, and functionality are owned by Norwood Enterprise LLC and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.<br>
-                <em>3.2 License:</em> Subject to these Terms and Conditions, we grant you a limited, non-exclusive, non- transferable, and revocable license to use the Service for your personal or internal business purposes.</p>
+                The Service and its original content, features, and functionality are owned by Norwood Enterprise LLC and are protected by applicable intellectual property laws.</p>
+
                 <p><strong>4. Limitation of Liability</strong><br>
-                <em>4.1 Disclaimer:</em> The Service is provided "as is" and "as available" without any warranties, expressed or implied. We do not warrant that the Service will be error-free or uninterrupted, that defects will be corrected, or that the Service is free of viruses or other harmful components.<br>
-                <em>4.2 Limitation of Liability:</em> In no event shall Norwood Enterprise LLC be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (a) your use or inability to use the Service; (b) any unauthorized access to or use of our servers and/or any personal information stored therein.</p>
+                The Service is provided "as is" and "as available" without warranties. In no event shall Norwood Enterprise LLC be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Service.</p>
+
                 <p><strong>5. Governing Law</strong><br>
-                These Terms and Conditions shall be governed by and construed in accordance with the laws of The United States of America, without regard to its conflict of law principles.</p>
-                <p><strong>6. Changes to Terms and Conditions</strong><br>
-                We reserve the right to update or change these Terms and Conditions at any time. Your continued use of the Service after we post any modifications to the Terms and Conditions on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Terms and Conditions.</p>
-                <p><strong>7. Contact Us</strong><br>
-                If you have any questions about these Terms and Conditions, please contact us at <a href="mailto:Laschawn@norwood-enterprise-llc.biz">Laschawn@norwood-enterprise-llc.biz</a>.</p>
+                These Terms and Conditions shall be governed by and construed in accordance with the laws of the United States of America, without regard to its conflict of law principles.</p>
+
+                <p><strong>6. Contact Us</strong><br>
+                If you have any questions about these Terms and Conditions, please contact us at
+                <a href="mailto:placeholder@email.com">placeholder@email.com</a> or
+                <a href="tel:+18632648915">(863) 264-8915</a>.
+                </p>
               </div>
             </details>
           </div>
@@ -584,11 +630,24 @@
         </form>
 
         <div class="box">
-          <img src="https://images.unsplash.com/photo-1502175353174-a7a70e73b362?auto=format&fit=crop&w=1200&q=80" alt="Happy family protected by insurance" style="border-radius:12px;margin-bottom:12px;">
+          <!-- UPDATED IMAGE (the one that previously failed) -->
+          <img
+            src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80"
+            alt="Fitness studio training session"
+            style="border-radius:12px;margin-bottom:12px;"
+          >
+
           <p><strong>Norwood Enterprise LLC</strong><br>
-            1241 Shannon Ln<br>Xenia, OH 45385</p>
-          <p><strong>Phone:</strong> <a href="tel:(863) 264-8915">(863) 264-8915</a><br>
-             <strong>Email:</strong> <a href="mailto:Laschawn@norwood-enterprise-llc.biz">Laschawn@norwood-enterprise-llc.biz</a></p>
+            1241 Shannon Ln<br>
+            Xenia, Ohio 45385
+          </p>
+
+          <p>
+            <strong>Principal:</strong> Laschawn Norwood<br>
+            <strong>Phone:</strong> <a href="tel:+18632648915">(863) 264-8915</a><br>
+            <strong>Email:</strong> <a href="mailto:placeholder@email.com">placeholder@email.com</a>
+          </p>
+
           <p class="sub">Hours: Mon–Fri 9am–6pm (local)</p>
         </div>
       </div>
@@ -606,11 +665,13 @@
         <div>
           <a href="#about">About</a> &nbsp;•&nbsp;
           <a href="#faq">FAQ</a> &nbsp;•&nbsp;
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact</a> &nbsp;•&nbsp;
+          <a href="mailto:placeholder@email.com">Email</a>
         </div>
       </div>
       <div class="legal" style="margin-top:10px">
-        © <span id="year"></span> Norwood Enterprise LLC. All rights reserved. Information on this site is for educational purposes and not a guarantee of coverage. Licensing varies by state.
+        © <span id="year"></span> Norwood Enterprise LLC. All rights reserved.
+        Information on this site is for educational purposes only and is not medical advice.
       </div>
     </div>
   </footer>
@@ -624,18 +685,18 @@
         if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth'}); }
       });
     });
-  
-    // Simple client-side handler (replace with your form endpoint or n8n webhook)
+
+    // Simple client-side handler (replace with your form endpoint or webhook)
     function handleSubmit(e){
       e.preventDefault();
       const status=document.getElementById('formStatus');
-      status.textContent='Thanks! We received your request. We'll reach out soon!';
+      status.textContent='Thanks! We received your request. We’ll reach out soon!';
       e.target.reset();
     }
-  
+
     // Year + "today's date" (M/D/YYYY) for policy blocks
     document.getElementById('year').textContent = new Date().getFullYear();
-  
+
     (function setTodayDates(){
       var d = new Date();
       var mm = d.getMonth() + 1;
